@@ -17,4 +17,12 @@ int factorial(int n)
                 return (n*factorial(n-1));
         }
 }
+void print_squares()
+{
+	for(int i=1;i<=10;++i)
+	{
+		int _sq = i*i;
+		std::cout<<i<<" sq.:"<<_sq<<" ";
+	}
+}
 #endif /* FI_LIB_H */
