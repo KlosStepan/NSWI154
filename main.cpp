@@ -7,7 +7,7 @@ int main()
 	for(int i = 1; i<=10; ++i)
 	{
 		int j = factorial(i);
-		std::cout<<i<<"! = "<<j<<std::endl;
+		std::cout<<i<<"! = "<<j<< " ";
 	}
 
 	return 0;
